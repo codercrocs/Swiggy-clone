@@ -4,11 +4,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Header = () => {
   return (
-    <div className="header ">
+    <div className="header fonts-loaded ">
       <nav className="navbar container">
         <div className="logo">
           <a href="/" className="d-flex title-link" title="Swiggy">
-            <svg viewBox="0 0 559 825" height="49" width="34" fill="#fc8019">
+            <svg viewBox="0 0 559 825" height="40" width="30" fill="#fc8019">
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"
@@ -130,16 +130,1776 @@ const Header = () => {
     </div>
   );
 };
+
+// API data
+const resData = [
+  {
+    info: {
+      id: "808331",
+      name: "Chaat by iD",
+      cloudinaryImageId: "014f13b1fb86cd19908871895868fd42",
+      locality: "Kathipara",
+      areaName: "Guindy",
+      costForTwo: "₹250 for two",
+      cuisines: ["Indian", "Chaat", "Fast Food"],
+      avgRating: 4.4,
+      parentId: "483812",
+      avgRatingString: "4.4",
+      totalRatingsString: "2",
+      promoted: true,
+      adTrackingId:
+        "cid=11491853~p=1~eid=0000018d-f167-274e-08ad-2c5a0038011b~srvts=1709152085838~45826",
+      sla: {
+        deliveryTime: 31,
+        lastMileTravel: 4.9,
+        serviceability: "SERVICEABLE",
+        slaString: "31 mins",
+        lastMileTravelString: "4.9 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 03:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textBased: {},
+          imageBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "25% OFF",
+        subHeader: "UPTO ₹65",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      isNewlyOnboarded: true,
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=808331",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "38897",
+      name: "Domino's Pizza",
+      cloudinaryImageId: "aeblcukhjldkibnfxyli",
+      locality: "Near Csi Church",
+      areaName: "Velachery",
+      costForTwo: "₹400 for two",
+      cuisines: ["Pizzas", "Italian", "Pastas", "Desserts"],
+      avgRating: 4.4,
+      parentId: "2456",
+      avgRatingString: "4.4",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 30,
+        serviceability: "SERVICEABLE",
+        slaString: "30 mins",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 02:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textBased: {},
+          imageBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "30% OFF",
+        subHeader: "UPTO ₹75",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=38897",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "437867",
+      name: "Kwality Walls Frozen Dessert and Ice Cream Shop",
+      cloudinaryImageId: "vhoxn4h7edzulchdw7ya",
+      locality: "Ward -178",
+      areaName: "Velachery",
+      costForTwo: "₹300 for two",
+      cuisines: ["Desserts", "Ice Cream", "Ice Cream Cakes"],
+      avgRating: 4.8,
+      veg: true,
+      parentId: "582",
+      avgRatingString: "4.8",
+      totalRatingsString: "500+",
+      sla: {
+        deliveryTime: 13,
+        lastMileTravel: 1.4,
+        serviceability: "SERVICEABLE",
+        slaString: "13 mins",
+        lastMileTravelString: "1.3 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 03:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textExtendedBadges: {},
+          textBased: {},
+          imageBased: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "50% OFF",
+        subHeader: "UPTO ₹100",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=437867",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "49456",
+      name: "The Best",
+      cloudinaryImageId: "txuhv901p7crxp55alzg",
+      locality: "Velachery",
+      areaName: "Tharamani",
+      costForTwo: "₹200 for two",
+      cuisines: ["Biryani", "North Indian", "Chinese", "Tandoor"],
+      avgRating: 4.2,
+      parentId: "17807",
+      avgRatingString: "4.2",
+      totalRatingsString: "5K+",
+      sla: {
+        deliveryTime: 15,
+        lastMileTravel: 2.3,
+        serviceability: "SERVICEABLE",
+        slaString: "15 mins",
+        lastMileTravelString: "2.2 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 02:10:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textExtendedBadges: {},
+          textBased: {},
+          imageBased: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "20% OFF",
+        subHeader: "UPTO ₹50",
+        discountTag: "POCKET HERO",
+        discountCalloutInfo: {
+          message: "Free Delivery",
+          logoCtx: {
+            logo: "v1655895371/free_delivery_logo_hqipbo.png",
+          },
+        },
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=49456",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "25092",
+      name: "Moonlight Takeaway",
+      cloudinaryImageId: "cfggd8kxpyentvj4jh6x",
+      locality: "Kandanchavadi",
+      areaName: "Perungudi",
+      costForTwo: "₹250 for two",
+      cuisines: [
+        "North Indian",
+        "Chinese",
+        "Indian",
+        "Ice Cream",
+        "South Indian",
+        "Grill",
+        "Tandoor",
+      ],
+      avgRating: 4.1,
+      parentId: "11817",
+      avgRatingString: "4.1",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 25,
+        lastMileTravel: 5.9,
+        serviceability: "SERVICEABLE",
+        slaString: "25 mins",
+        lastMileTravelString: "5.9 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 05:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textBased: {},
+          imageBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "40% OFF",
+        subHeader: "UPTO ₹80",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=25092",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "42816",
+      name: "Pink Cafe",
+      cloudinaryImageId: "hq9bpgxtffva1dxe4fho",
+      locality: "Maduvinkarai",
+      areaName: "Guindy",
+      costForTwo: "₹150 for two",
+      cuisines: ["American", "Continental", "Pastas", "Beverages"],
+      avgRating: 4.2,
+      parentId: "4197",
+      avgRatingString: "4.2",
+      totalRatingsString: "100+",
+      sla: {
+        deliveryTime: 28,
+        lastMileTravel: 3,
+        serviceability: "SERVICEABLE",
+        slaString: "28 mins",
+        lastMileTravelString: "3.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 05:30:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textBased: {},
+          imageBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹125 OFF",
+        subHeader: "ABOVE ₹249",
+        discountTag: "FLAT DEAL",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=42816",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "452864",
+      name: "Kitchen No.7",
+      cloudinaryImageId: "udbtlkb0rntldsjyidrd",
+      locality: "Poonkundran Agency",
+      areaName: "Guindy",
+      costForTwo: "₹500 for two",
+      cuisines: ["North Indian", "Combo"],
+      avgRating: 3.9,
+      parentId: "119172",
+      avgRatingString: "3.9",
+      totalRatingsString: "500+",
+      sla: {
+        deliveryTime: 30,
+        lastMileTravel: 6.8,
+        serviceability: "SERVICEABLE",
+        slaString: "30 mins",
+        lastMileTravelString: "6.8 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 05:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textBased: {},
+          imageBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "40% OFF",
+        subHeader: "UPTO ₹80",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=452864",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "14092",
+      name: "Biriyani Mubaarak",
+      cloudinaryImageId: "tscxqcc9d2hmax03rmyo",
+      locality: "Alandur",
+      areaName: "Alandur",
+      costForTwo: "₹400 for two",
+      cuisines: ["Biryani"],
+      avgRating: 4.2,
+      parentId: "11710",
+      avgRatingString: "4.2",
+      totalRatingsString: "5K+",
+      sla: {
+        deliveryTime: 20,
+        lastMileTravel: 4.1,
+        serviceability: "SERVICEABLE",
+        slaString: "20 mins",
+        lastMileTravelString: "4.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 02:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textExtendedBadges: {},
+          textBased: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "20% OFF",
+        subHeader: "UPTO ₹50",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=14092",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "760598",
+      name: "Chicky Chatters",
+      cloudinaryImageId: "6f3972d649d3070007824f30aeacac3a",
+      locality: "Taramani Link Rd",
+      areaName: "Adyar",
+      costForTwo: "₹300 for two",
+      cuisines: ["South Indian", "North Indian", "Chinese"],
+      avgRating: 3.8,
+      parentId: "448985",
+      avgRatingString: "3.8",
+      totalRatingsString: "100+",
+      sla: {
+        deliveryTime: 19,
+        lastMileTravel: 4.6,
+        serviceability: "SERVICEABLE",
+        slaString: "19 mins",
+        lastMileTravelString: "4.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 05:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textExtendedBadges: {},
+          textBased: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "60% OFF",
+        subHeader: "UPTO ₹120",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=760598",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "805469",
+      name: "A1 Mess",
+      cloudinaryImageId: "f1bc9ddf53de574cdc35ab2f717df234",
+      locality: "Alandur",
+      areaName: "Guindy",
+      costForTwo: "₹350 for two",
+      cuisines: ["South Indian", "Chinese", "Arabian", "Biryani", "Kebabs"],
+      avgRating: 3.7,
+      parentId: "266563",
+      avgRatingString: "3.7",
+      totalRatingsString: "100+",
+      sla: {
+        deliveryTime: 23,
+        lastMileTravel: 4.9,
+        serviceability: "SERVICEABLE",
+        slaString: "23 mins",
+        lastMileTravelString: "4.9 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 05:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textExtendedBadges: {},
+          textBased: {},
+          imageBased: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "40% OFF",
+        subHeader: "UPTO ₹80",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      isNewlyOnboarded: true,
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=805469",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "665590",
+      name: "Cream Story",
+      cloudinaryImageId: "9f14af981799600e6e523e5c0549c16a",
+      locality: "100 ft Road",
+      areaName: "Velachery",
+      costForTwo: "₹200 for two",
+      cuisines: ["Ice Cream", "Desserts", "Beverages"],
+      avgRating: 4.4,
+      veg: true,
+      parentId: "65947",
+      avgRatingString: "4.4",
+      totalRatingsString: "100+",
+      sla: {
+        deliveryTime: 19,
+        lastMileTravel: 2.4,
+        serviceability: "SERVICEABLE",
+        slaString: "19 mins",
+        lastMileTravelString: "2.4 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 03:30:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      aggregatedDiscountInfoV2: {},
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textBased: {},
+          imageBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=665590",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "634229",
+      name: "Chai Truck",
+      cloudinaryImageId: "7e0c0cff64d6405be2a1029234dba928",
+      locality: "Sankarana Avenue",
+      areaName: "Velachery",
+      costForTwo: "₹250 for two",
+      cuisines: ["Beverages"],
+      avgRating: 4.4,
+      parentId: "6952",
+      avgRatingString: "4.4",
+      totalRatingsString: "500+",
+      sla: {
+        deliveryTime: 20,
+        lastMileTravel: 2.4,
+        serviceability: "SERVICEABLE",
+        slaString: "20 mins",
+        lastMileTravelString: "2.4 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 01:58:08",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textExtendedBadges: {},
+          textBased: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "30% OFF",
+        subHeader: "UPTO ₹75",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=634229",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "634750",
+      name: "Ya Rahman Briyani",
+      cloudinaryImageId: "lkdc5wrkhkpw3t1hlvbk",
+      locality: "Thuruvalluvar Street",
+      areaName: "Madipakkam",
+      costForTwo: "₹200 for two",
+      cuisines: [
+        "Biryani",
+        "Chinese",
+        "South Indian",
+        "Seafood",
+        "Arabian",
+        "Malaysian",
+      ],
+      avgRating: 3.9,
+      parentId: "16797",
+      avgRatingString: "3.9",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 16,
+        lastMileTravel: 2.3,
+        serviceability: "SERVICEABLE",
+        slaString: "16 mins",
+        lastMileTravelString: "2.2 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 05:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textBased: {},
+          imageBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "50% OFF",
+        subHeader: "UPTO ₹100",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=634750",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "184028",
+      name: "The Belgian Waffle Cafe",
+      cloudinaryImageId: "7e48586d8a54ae3bdf33b350b25ec1a5",
+      locality: "Selvanaar extension",
+      areaName: "Velachery",
+      costForTwo: "₹200 for two",
+      cuisines: ["Snacks", "Desserts", "Beverages"],
+      avgRating: 4.5,
+      veg: true,
+      parentId: "10384",
+      avgRatingString: "4.5",
+      totalRatingsString: "5K+",
+      sla: {
+        deliveryTime: 26,
+        lastMileTravel: 2.4,
+        serviceability: "SERVICEABLE",
+        slaString: "26 mins",
+        lastMileTravelString: "2.4 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 02:59:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "v1695133679/badges/Pure_Veg111.png",
+            description: "pureveg",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textExtendedBadges: {},
+          textBased: {},
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  imageId: "v1695133679/badges/Pure_Veg111.png",
+                  description: "pureveg",
+                },
+              },
+            ],
+          },
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "20% OFF",
+        subHeader: "UPTO ₹50",
+        discountTag: "POCKET HERO",
+        discountCalloutInfo: {
+          message: "Free Delivery",
+          logoCtx: {
+            logo: "v1655895371/free_delivery_logo_hqipbo.png",
+          },
+        },
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=184028",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "171014",
+      name: "Topi Vappa Biriyani",
+      cloudinaryImageId: "dkvnwi84we0ozjmws5en",
+      locality: "kaiveli signal , velacherry-tambaram main road",
+      areaName: "Madipakkam",
+      costForTwo: "₹300 for two",
+      cuisines: ["Biryani", "Chinese", "North Indian", "Grill"],
+      avgRating: 4.1,
+      parentId: "9693",
+      avgRatingString: "4.1",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 14,
+        lastMileTravel: 2.2,
+        serviceability: "SERVICEABLE",
+        slaString: "14 mins",
+        lastMileTravelString: "2.2 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 05:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textExtendedBadges: {},
+          textBased: {},
+          imageBased: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "30% OFF",
+        subHeader: "UPTO ₹75",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=171014",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "317861",
+      name: "Kebabistaan",
+      cloudinaryImageId: "2b93b3b52a307c3ae0a45a869876998a",
+      locality: "Bazaar Main Road",
+      areaName: "Madipakkam",
+      costForTwo: "₹300 for two",
+      cuisines: [
+        "Beverages",
+        "Chinese",
+        "Kebabs",
+        "Tandoor",
+        "Grill",
+        "Biryani",
+        "Mughlai",
+        "Arabian",
+        "Lebanese",
+        "North Indian",
+        "Salads",
+        "Desserts",
+      ],
+      avgRating: 4.1,
+      parentId: "8877",
+      avgRatingString: "4.1",
+      totalRatingsString: "5K+",
+      sla: {
+        deliveryTime: 24,
+        lastMileTravel: 2.3,
+        serviceability: "SERVICEABLE",
+        slaString: "24 mins",
+        lastMileTravelString: "2.2 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 05:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textExtendedBadges: {},
+          textBased: {},
+          imageBased: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "40% OFF",
+        subHeader: "UPTO ₹80",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=317861",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "712491",
+      name: "Pizza Hut",
+      cloudinaryImageId: "978358a0d0caba4f4555b8e2147b467d",
+      locality: "Up Town FEC",
+      areaName: "Guindy Kathipara Bridge",
+      costForTwo: "₹350 for two",
+      cuisines: ["Pizzas"],
+      avgRating: 3.9,
+      parentId: "721",
+      avgRatingString: "3.9",
+      totalRatingsString: "500+",
+      sla: {
+        deliveryTime: 28,
+        lastMileTravel: 4.9,
+        serviceability: "SERVICEABLE",
+        slaString: "28 mins",
+        lastMileTravelString: "4.9 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 05:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textBased: {},
+          imageBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "50% OFF",
+        subHeader: "UPTO ₹100",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=712491",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "48501",
+      name: "Subway",
+      cloudinaryImageId: "63178e3e64d503a479f2a2048a474552",
+      locality: "Velachery",
+      areaName: "100 Feet Bypass Road",
+      costForTwo: "₹350 for two",
+      cuisines: ["Salads", "Snacks", "Desserts", "Beverages"],
+      avgRating: 4.3,
+      parentId: "2",
+      avgRatingString: "4.3",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 18,
+        lastMileTravel: 1.5,
+        serviceability: "SERVICEABLE",
+        slaString: "18 mins",
+        lastMileTravelString: "1.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 05:55:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textBased: {},
+          imageBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹100 OFF",
+        subHeader: "ABOVE ₹249",
+        discountTag: "FLAT DEAL",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=48501",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "617678",
+      name: "KFC",
+      cloudinaryImageId: "f01666ac73626461d7455d9c24005cd4",
+      locality: "Kathipara",
+      areaName: "Urban Square",
+      costForTwo: "₹400 for two",
+      cuisines: ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+      avgRating: 4.2,
+      parentId: "547",
+      avgRatingString: "4.2",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 21,
+        lastMileTravel: 4.9,
+        serviceability: "SERVICEABLE",
+        slaString: "21 mins",
+        lastMileTravelString: "4.9 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 05:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textBased: {},
+          imageBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "20% OFF",
+        subHeader: "UPTO ₹50",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=617678",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "56862",
+      name: "Gold Fresh Juice Shop",
+      cloudinaryImageId: "pasfzojo0syofz20b3pp",
+      locality: "OMR Perungudi",
+      areaName: "Perungudi",
+      costForTwo: "₹200 for two",
+      cuisines: ["Juices", "Beverages"],
+      avgRating: 4.6,
+      veg: true,
+      parentId: "7241",
+      avgRatingString: "4.6",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 21,
+        lastMileTravel: 4.1,
+        serviceability: "SERVICEABLE",
+        slaString: "21 mins",
+        lastMileTravelString: "4.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 05:59:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "v1695133679/badges/Pure_Veg111.png",
+            description: "pureveg",
+          },
+        ],
+        textExtendedBadges: [
+          {
+            iconId: "guiltfree/GF_Logo_android_3x",
+            shortDescription: "options available",
+            fontColor: "#7E808C",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textBased: {},
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  imageId: "v1695133679/badges/Pure_Veg111.png",
+                  description: "pureveg",
+                },
+              },
+            ],
+          },
+          textExtendedBadges: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "",
+                  shortDescription: "options available",
+                  fontColor: "#7E808C",
+                  iconId: "guiltfree/GF_Logo_android_3x",
+                },
+              },
+            ],
+          },
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "10% OFF",
+        subHeader: "ABOVE ₹700",
+        discountTag: "FLAT DEAL",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=56862",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "815924",
+      name: "Crusto's - Gourmet Cheese Burst Pizza",
+      cloudinaryImageId: "c77fe42b7997c566f491e84b540701ca",
+      locality: "Gopal Street",
+      areaName: "Taramani",
+      costForTwo: "₹300 for two",
+      cuisines: ["Pizzas", "Pastas", "Fast Food", "Snacks", "Beverages"],
+      avgRating: 5,
+      parentId: "268955",
+      avgRatingString: "5.0",
+      totalRatingsString: "20+",
+      sla: {
+        deliveryTime: 14,
+        lastMileTravel: 1.6,
+        serviceability: "SERVICEABLE",
+        slaString: "14 mins",
+        lastMileTravelString: "1.6 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 05:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textExtendedBadges: {},
+          textBased: {},
+          imageBased: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹179",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      isNewlyOnboarded: true,
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=815924",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "518842",
+      name: "The Brooklyn Creamery - Healthy Ice Cream",
+      cloudinaryImageId: "b1b35780a9b1dfeb26d680506d494eaa",
+      locality: "2ND CROSS STREET, VELACHERY",
+      areaName: "VELACHERY",
+      costForTwo: "₹200 for two",
+      cuisines: ["Healthy Food", "Desserts", "Ice Cream"],
+      avgRating: 4.5,
+      veg: true,
+      parentId: "236673",
+      avgRatingString: "4.5",
+      totalRatingsString: "100+",
+      sla: {
+        deliveryTime: 13,
+        lastMileTravel: 1.7,
+        serviceability: "SERVICEABLE",
+        slaString: "13 mins",
+        lastMileTravelString: "1.7 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 02:00:00",
+        opened: true,
+      },
+      badges: {
+        textExtendedBadges: [
+          {
+            iconId: "guiltfree/GF_Logo_android_3x",
+            shortDescription: "brand",
+            fontColor: "#7E808C",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textBased: {},
+          imageBased: {},
+          textExtendedBadges: {
+            badgeObject: [
+              {
+                attributes: {
+                  shortDescription: "brand",
+                  fontColor: "#7E808C",
+                  iconId: "guiltfree/GF_Logo_android_3x",
+                  description: "",
+                },
+              },
+            ],
+          },
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "50% OFF",
+        subHeader: "UPTO ₹100",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=518842",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "258032",
+      name: "Id - Chennai's Everyday Soulful",
+      cloudinaryImageId: "xdmiep6au06c0z7kkzv2",
+      locality: "Guindy",
+      areaName: "Guindy",
+      costForTwo: "₹350 for two",
+      cuisines: [
+        "South Indian",
+        "Snacks",
+        "Chaat",
+        "Beverages",
+        "Desserts",
+        "Thalis",
+        "Juices",
+      ],
+      avgRating: 4.2,
+      veg: true,
+      parentId: "472676",
+      avgRatingString: "4.2",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 27,
+        lastMileTravel: 4.9,
+        serviceability: "SERVICEABLE",
+        slaString: "27 mins",
+        lastMileTravelString: "4.9 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 05:55:00",
+        opened: true,
+      },
+      badges: {},
+      select: true,
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textBased: {},
+          imageBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "10% OFF",
+        subHeader: "UPTO ₹40",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=258032",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "522856",
+      name: "Bombay Kulfi",
+      cloudinaryImageId: "b5ckzuguqjxifde4d6eo",
+      locality: "Gangai Nagar",
+      areaName: "Velachery",
+      costForTwo: "₹200 for two",
+      cuisines: ["Ice Cream"],
+      avgRating: 4.6,
+      veg: true,
+      parentId: "4900",
+      avgRatingString: "4.6",
+      totalRatingsString: "100+",
+      sla: {
+        deliveryTime: 12,
+        lastMileTravel: 1.7,
+        serviceability: "SERVICEABLE",
+        slaString: "12 mins",
+        lastMileTravelString: "1.7 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 02:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          textBased: {},
+          imageBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "40% OFF",
+        subHeader: "UPTO ₹80",
+        discountTag: "POCKET HERO",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=522856",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+  {
+    info: {
+      id: "470708",
+      name: "Big Bowl",
+      cloudinaryImageId: "c99751d54e4e1847186c62b3309c1327",
+      locality: "Near Gangai Nagar",
+      areaName: "Velachery",
+      costForTwo: "₹250 for two",
+      cuisines: ["North Indian", "Chinese", "Tibetan", "Desserts"],
+      avgRating: 4.1,
+      parentId: "434792",
+      avgRatingString: "4.1",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 16,
+        lastMileTravel: 2.4,
+        serviceability: "SERVICEABLE",
+        slaString: "16 mins",
+        lastMileTravelString: "2.4 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-29 02:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textExtendedBadges: {},
+          textBased: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "50% OFF",
+        subHeader: "UPTO ₹100",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {},
+    cta: {
+      link: "swiggy://menu?restaurant_id=470708",
+      text: "RESTAURANT_MENU",
+      type: "DEEPLINK",
+    },
+  },
+];
+
 // restaurant card
-const Rescard = () => {
+const Rescard = (props) => {
+  const { resData } = props;
   return (
-    <div className="resCard">
+    <div className="resCard fonts-loaded-1">
       <img
-        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/89fccaa76f2f760e2742b9e53d32bb69"
+        src={
+          "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
+          resData.info.cloudinaryImageId
+        }
         alt="res-img"
         className="card-imgs "
       />
-      <h5 className="card-title">Behrouz Biriyani</h5>
+      <h5 className="card-title">{resData.info.name}</h5>
+
+      <div className="card-rating-time">
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 20 20"
+          fill="none"
+          role="img"
+          aria-hidden="true"
+          strokeColor="rgba(2, 6, 12, 0.92)"
+          fillColor="rgba(2, 6, 12, 0.92)"
+        >
+          <circle
+            cx="10"
+            cy="10"
+            r="9"
+            fill="url(#StoreRating20_svg__paint0_linear_32982_71567)"
+          ></circle>
+          <path
+            d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+            fill="white"
+          ></path>
+          <defs>
+            <linearGradient
+              id="StoreRating20_svg__paint0_linear_32982_71567"
+              x1="10"
+              y1="1"
+              x2="10"
+              y2="19"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#21973B"></stop>
+              <stop offset="1" stop-color="#128540"></stop>
+            </linearGradient>
+          </defs>
+        </svg>
+        <div>
+          <span className="rate-time">
+            {" "}
+            {resData.info.avgRating} - {resData.info.sla.deliveryTime} mins
+          </span>
+        </div>
+      </div>
+
       <p className="card-text">
         Biryani, Kebabs, Mughlai, Lucknowi, Hyderabadi, Desserts, Beverages
         <br />
@@ -153,14 +1913,9 @@ const Body = () => {
   return (
     <>
       <div className="body">
-        <Rescard />
-        <Rescard /> <Rescard />
-        <Rescard /> <Rescard /> <Rescard /> <Rescard /> <Rescard /> <Rescard />{" "}
-        <Rescard /> <Rescard /> <Rescard /> <Rescard /> <Rescard /> <Rescard />{" "}
-        <Rescard /> <Rescard /> <Rescard /> <Rescard /> <Rescard /> <Rescard />{" "}
-        <Rescard /> <Rescard /> <Rescard /> <Rescard /> <Rescard />
-        <Rescard />
-        <Rescard />
+        {resData.map((res) => (
+          <Rescard resData={res} />
+        ))}
       </div>
     </>
   );
@@ -225,6 +1980,7 @@ const Footer = () => {
         </span>
         <div>
           <p>© 2023 Bundl Technologies Pvt. Ltd</p>
+          <p>Made with Love - Rajkumar subramanian</p>
         </div>
       </div>
     </div>

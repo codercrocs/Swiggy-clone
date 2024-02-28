@@ -2,14 +2,25 @@
   font-size: 20px;
   /* max-width: 1200px; */
   position: fixed;
+  font-weight: 500;
   background-color: rgb(255, 255, 255);
   border-bottom: solid rgb(226, 226, 226) 2px;
   box-shadow: rgba(27, 30, 36, 0.1) 0px 8px 16px 0px;
   width: 100%;
-
+  z-index: 999;
   padding: 10px;
   margin: auto;
 }
+
+/* fonts used in the application */
+.fonts-loaded {
+  font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+}
+
+.fonts-loaded-1 {
+  font-family: "Basis Grotesque Pro", Arial, sans-serif !important;
+}
+
 .title-link {
   gap: 10px;
   justify-content: center;
@@ -17,6 +28,7 @@
 }
 .title {
   color: #fc8019 !important;
+  font-weight: 700;
 }
 
 .navbar {
@@ -78,10 +90,29 @@ a:hover {
 }
 .card-text,
 .card-title {
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 20px;
 }
 
+.card-rating-time {
+  margin-top: 5px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+
+  flex-direction: row;
+}
+
+.card-title {
+  font-weight: 700;
+}
+.rate-time {
+  padding-left: 5px;
+}
+
+.card-text {
+  color: rgba(2, 6, 12, 0.6);
+}
 .body {
   padding-top: 150px;
   padding-bottom: 100px;
