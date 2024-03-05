@@ -1,0 +1,45 @@
+.resCard {
+  border: solid rgb(238, 238, 238) 2px;
+  height: 100%;
+  width: 300px;
+  border-radius: 20px;
+  background-color: rgb(252, 252, 252);
+}
+.resCard:hover {
+  /* transform: translateY(-20px); */
+  transform: scale(0.95);
+  /* transform: translateX(-20px); */
+  transition: all 0.05s ease 0s;
+}
+.card-imgs {
+  height: 175px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.card-text,
+.card-title {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.card-rating-time {
+  margin-top: 5px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+
+  flex-direction: row;
+}
+
+.card-title {
+  font-weight: 700;
+}
+.rate-time {
+  padding-left: 5px;
+}
+
+.card-text {
+  color: rgba(2, 6, 12, 0.6);
+  font-weight: 500;
+}

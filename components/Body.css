@@ -1,0 +1,18 @@
+.body-header {
+  padding-top: 150px;
+  font-weight: 800;
+  font-size: 24px;
+}
+.body {
+  padding-top: 20px;
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+.btn {
+  border-color: black;
+  font-weight: 700;
+  margin: 20px;
+}

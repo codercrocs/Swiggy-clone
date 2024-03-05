@@ -1,0 +1,19 @@
+.footer-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: black;
+  height: 100%;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.footer-text {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

@@ -1,0 +1,29 @@
+.shimmer-card {
+  height: 300px;
+  width: 300px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+.shimmer-title {
+  padding: 200px;
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.shimmer-cont {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+.shimmer-btn {
+  height: 30px;
+  width: 700px;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+  border-radius: 20px;
+}
