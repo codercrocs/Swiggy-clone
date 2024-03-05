@@ -56,7 +56,7 @@ const ResCard = (props) => {
       </div>
 
       <p className="card-text">
-        {resData.info.costForTwo}
+        {resData.info.cuisines.join(", ")}
         <br />
         {resData.info.locality}
       </p>
