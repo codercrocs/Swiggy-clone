@@ -39,7 +39,7 @@ const Header = () => {
 
         <div className="list-items">
           <ul className="list-el">
-            <div className="search">
+            {/* <div className="search">
               <li>
                 <a href="/">
                   <span className="logo-link">
@@ -55,7 +55,7 @@ const Header = () => {
                   <span className="link-text"> Search</span>
                 </a>
               </li>
-            </div>
+            </div> */}
 
             <div className="offers">
               <li>

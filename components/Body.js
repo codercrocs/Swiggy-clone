@@ -3,7 +3,6 @@ import { resData } from "../Utils/data";
 import ResCard from "./ResCard";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
-// API data
 
 const Body = () => {
   // let listRes = [];
@@ -29,9 +28,6 @@ const Body = () => {
   if (listRes.length === 0) {
     return <Shimmer />;
   }
-  // data.cards[4].card.card.gridElements.infoWithStyle.restaurants[2].info
-
-  // data.cards[4].card.card.gridElements.infoWithStyle.restaurants
 
   console.log("body rendered");
 
@@ -59,6 +55,7 @@ const Body = () => {
                   .toLowerCase()
                   .includes(searchTxt.toLowerCase());
               });
+              console.log("filteredRes" + filteredRes);
               setfilteredRest(filteredRes);
             }}
           >
@@ -88,8 +85,9 @@ const Body = () => {
           className="btn btn-light"
           onClick={() => {
             const filtered = listRes.filter((rat) => {
-              return rat.info.avgRating > 4.5;
+              return rat.info.avgRating > 4.2;
             });
+            console.log("ListRes" + { filtered });
             setListRes(filtered);
           }}
         >
@@ -97,9 +95,11 @@ const Body = () => {
         </button>
       </div>
       <div className="body">
-        {filteredRest.map((res) => (
-          <ResCard key={res.info.id} resData={res} />
-        ))}
+        {filteredRest.length < 9
+          ? filteredRest.map((res) => (
+              <ResCard key={res.info.id} resData={res} />
+            ))
+          : listRes.map((res) => <ResCard key={res.info.id} resData={res} />)}
       </div>
     </>
   );
